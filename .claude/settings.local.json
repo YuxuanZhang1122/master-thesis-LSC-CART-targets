@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "WebFetch(domain:docs.scarches.org)",
+      "WebFetch(domain:colab.research.google.com)",
+      "WebSearch",
+      "WebFetch(domain:celltypist.readthedocs.io)",
+      "Bash(chmod:*)",
+      "Bash(pip show:*)",
+      "Bash(python3:*)",
+      "Bash(rm:*)",
+      "Bash(for sample in ND_083017 ND_090617 Normal_sorted_170531 Normal_sorted_170607)",
+      "Bash(do cp \"Petti/$sample/genes.tsv.gz\" \"Petti/$sample/features.tsv.gz\")",
+      "Bash(done)",
+      "Bash(for sample in ND_090617 Normal_sorted_170531 Normal_sorted_170607)",
+      "Bash(grep:*)",
+      "Bash(gunzip:*)",
+      "Bash(cat:*)",
+      "Bash(R:*)",
+      "WebFetch(domain:www.10xgenomics.com)",
+      "WebFetch(domain:academic.oup.com)",
+      "WebFetch(domain:www.nature.com)",
+      "WebFetch(domain:genomebiology.biomedcentral.com)",
+      "WebFetch(domain:wlab.ethz.ch)",
+      "WebFetch(domain:github.com)",
+      "Bash(tree:*)",
+      "Bash(find:*)",
+      "Bash(test:*)"
+    ],
+    "deny": [],
+    "ask": []
+  },
+  "outputStyle": "production-clean"
+}

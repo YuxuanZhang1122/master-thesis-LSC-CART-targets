@@ -1,0 +1,56 @@
+Number,CellType
+1,ASDC
+2,BFU-E
+3,Basophilic Erythroblast
+4,CD14 Mono
+5,CD16 Mono
+6,CD4 Central Memory
+7,CD4 Effector Memory
+8,CD4 Naive
+9,CD4 Regulatory
+10,CD8 Central Memory
+11,CD8 Effector Memory 1
+12,CD8 Effector Memory 2
+13,CD8 Naive
+14,CD8 Tissue Resident Memory
+15,CFU-E
+16,CLP
+17,Cycling Progenitor
+18,Early GMP
+19,Early ProMono
+20,EoBasoMast Precursor
+21,GMP-Cycle
+22,GMP-Mono
+23,GMP-Neut
+24,HSC
+25,Immature B
+26,LMPP
+27,Large Pre-B
+28,Late ProMono
+29,MEP
+30,MLP
+31,MLP-II
+32,MPP-MkEry
+33,MPP-MyLy
+34,Mature B
+35,Megakaryocyte
+36,Megakaryocyte Precursor
+37,NK
+38,NK CD56high
+39,NK Proliferating
+40,Orthochromatic Erythroblast
+41,Plasma Cell
+42,Polychromatic Erythroblast
+43,Pre-ProB
+44,Pre-cDC
+45,Pre-pDC
+46,Pre-pDC Cycling
+47,Pro-B Cycling
+48,Pro-B VDJ
+49,Pro-Erythroblast
+50,Small Pre-B
+51,Stromal
+52,T Proliferating
+53,cDC1
+54,cDC2
+55,pDC

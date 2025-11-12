@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(zcat:*)",
+      "Bash(gunzip:*)",
+      "Bash(python:*)",
+      "Bash(if [ -f requirements.txt ])",
+      "Bash(then cat requirements.txt)",
+      "Bash(else echo \"No requirements.txt found\")",
+      "Bash(fi)",
+      "Bash(source:*)",
+      "Bash(pip show:*)"
+    ]
+  },
+  "outputStyle": "production-clean"
+}

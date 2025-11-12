@@ -1,0 +1,520 @@
+,orig.ident,CellType,full_sample_id,patient_id,time_point,sample_source,initial_CellType,predicted_CellType,predicted_CellType_Broad,predicted_CellType_No_Abbreviations,ident,determined_identity,consensus_label,sample_type
+AML328-D0_AAAACCGCTACT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_AAACACAGGGGC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_AAATTATGTCCC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_AACCCATGATCT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_AAGCAAAACGCN,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_AATTTCCCTGTC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_ACCACCGTGGGT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_AGCTTTTCGCAG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_AGGTTCAATGAA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_AGTCATACATCT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_AGTTGGGCTTAC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_ATGAGAGTTGGG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_ATGCACTGCAAA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_ATTCCAGTGGCT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_ATTCTTCTGCAG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_ATTGACATGTGT,AML328-D0,HSC,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_ATTTAATTGTGT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CAACGATCGTAT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CAGAAATACCCN,AML328-D0,HSC,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CAGTAGAACCGC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CCAACAGCGGAG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CCAGAAATACCC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CCAGTGTCTAGN,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CCCAGCCGGATA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CCGGAGTTCGAG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CCGTTTAATTAG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CGACGACCAGGA,AML328-D0,HSC,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CGAGTAGGCATG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CGGTGCTAAGGN,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CGTAATGAATAA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CGTGCTCTCAAT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CGTGGTCACAAC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CTAACCCGGTAN,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CTACGACAACCG,AML328-D0,HSC,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CTAGGTTCTATT,AML328-D0,HSC,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CTCTCATAGTCA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CTGACTTAATTC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CTTATTACGACG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CTTCTTTCATGG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CTTTACGCGCAA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GACAACCACACG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GAGGGTTAGGTA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GAGTACCATCGC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GAGTGCATCCCC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GCACCCACTTAC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GCAGTGCATTCA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GCGCGAATTCAG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GGAACCGCACGG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GGCATGTTACGN,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GGCCCCGGAGGG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GGGTCAGGCGCC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GGTATAATTAAT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GGTTATTCCCGA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GTAGATGGATTC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GTCCTTACCTAC,AML328-D0,HSC,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TCGAGCGTGACT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TCGGCTGCTGTA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TGAACATCGGAA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TGATGTACTCGT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TGGTTCGTGATT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TTAGCGCACCCC,AML328-D0,HSC,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TTAGGGTACGAC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TTGACCGTATCC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TTGAGAGAGCGC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TTGATTTGGTTC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TTGGATAAAGTN,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_AAGCTCAAATGG,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_AGTTCCGAGCCT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GAAGTGCTAGAA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_ATTGTGAAGGTC,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_ACCTCACAACTN,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_CACCACGACTAA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TTCTTTATCAAN,AML328-D0,HSC,AML328-D0,AML328,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_AATTGCGCCGAA,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_ACCCCAAGATAT,AML328-D0,HSC,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_GAGCTAATTAGT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D0_TGCGGCAATACT,AML328-D0,HSC-like,AML328-D0,AML328,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D0,HSC,HSC_Consensus,Patient
+AML328-D113_AACTCGTGGCAT,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_AAGAGGTCATTG,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_AAGATTAAGAGA,AML328-D113,HSC,AML328-D113,AML328,D113,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_ACACCATGCTAA,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_ATCCTTCCACTC,AML328-D113,HSC,AML328-D113,AML328,D113,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_CACAGACAATCT,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_CCTGTTGCGACG,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_CGGACAAATAAG,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_CTGGTCGGGACG,AML328-D113,HSC,AML328-D113,AML328,D113,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_GAAATGTACCCT,AML328-D113,HSC,AML328-D113,AML328,D113,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_GAATACCTGGCG,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_GAGGCCTGTAGG,AML328-D113,HSC,AML328-D113,AML328,D113,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_GATATTCCTCCA,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_GCGGTTAATGGG,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_GGGATACGTAGT,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_GTTTAAGGATCT,AML328-D113,HSC,AML328-D113,AML328,D113,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_TATGCTGTCGTC,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_TCTTATTTCTGN,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_TGAGAGGCCCCT,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_TGTGCGCGTATN,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_CCCTGTGTTAAA,AML328-D113,HSC,AML328-D113,AML328,D113,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_GATTGGGACTTA,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_ATACGATTTTCC,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_TGGGCTTTGCGC,AML328-D113,HSC,AML328-D113,AML328,D113,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_GTATGTATTTTA,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_GGGTTTAATTTC,AML328-D113,HSC-like,AML328-D113,AML328,D113,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D113_TTGACAGTTCTG,AML328-D113,HSC,AML328-D113,AML328,D113,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D113,HSC,HSC_Consensus,Patient
+AML328-D171_ACGCACGTCATG,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_AGGCGCCGTGAA,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_AGGGCAGTAGTG,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_AGTGATGGTTGG,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_AGTTAGTGTACG,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_ATGTGAAGATGC,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CAAGGGTAACTT,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CCAATATGGAGG,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CCACCTTTTAAC,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CCATTTTCCCTT,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CCCCTTACCAGG,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CCCGGAACTAAC,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CCCTACCGCGTC,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CGAATGGCATAA,AML328-D171,HSC,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CGAGTACCCGCA,AML328-D171,HSC,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CGCACGTCATGN,AML328-D171,HSC,AML328-D171,AML328,D171,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CTCCTTAACGTC,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_GCAGGATTTGCT,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_GCAGTACTCCCT,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_GCTGTACTACCT,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_GCTTCCACATGT,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_GTCATCCGTCGT,AML328-D171,HSC,AML328-D171,AML328,D171,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_TAAATCTTAGAC,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_TCAAGCGTGCGG,AML328-D171,HSC,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_TCGGGCCTAGGG,AML328-D171,HSC,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_TCGTACTGGTCG,AML328-D171,HSC,AML328-D171,AML328,D171,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_TCGTCTATTATN,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_TCTCTCTACGTT,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_TCTTCTGCATCT,AML328-D171,HSC,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_TGAGAACGTGGC,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_TGCGGTGCCAGG,AML328-D171,HSC,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_TTCGACGACAGC,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_ACCGACGACCCT,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_GAACACTGAAAC,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_GTGAGTCGTGCA,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_TAGGTAGAGCAT,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_TTTGGTTCAGTT,AML328-D171,HSC,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_ACAGCAGTATAC,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CTTGAAGCTGCA,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_GATTATGTCTGT,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_GCTTTGACTGAT,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D171_CGCGTCCTGCAG,AML328-D171,HSC-like,AML328-D171,AML328,D171,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D171,HSC,HSC_Consensus,Patient
+AML328-D29_AAACAACGCGAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AAGACCAATAGT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AAGACCTGAATT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AAGGTTCCGGCT,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AAGTATTACGTG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AAGTGTAGCGCC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AATAGCGGCAAT,AML328-D29,HSC,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AATCAAACCTCT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AATCAATTTGTC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ACACTTCTAATA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ACACTTGGCTCC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ACAGGAATTCCC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ACAGGGGAGCGT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ACCAAATCAATC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ACCACTTCGTGG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ACCATCGGCGCC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ACCATGTTGCAA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ACCGCTGGGTTA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ACGGACCAAGGT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ACTACTAAAGCT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ACTATAGAGGCA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AGCACTTGATTA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AGGCCGATTTTC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AGGCGCGAGTCT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AGGCTTATAGAA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AGGGTAGTGTAG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATAACTCATGGT,AML328-D29,HSC,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATAATAACATTT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATACACGTTCAT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATACCTCTAAAG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATAGGCCTACTA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATATATGACGTA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATATTAATGTAA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATCAGCTGGGGT,AML328-D29,HSC,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATCATTCTTATC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATGCCTATGATA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATGCTGTCTTTC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATGGCTTGCCTA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATGTCCTAGGTC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATTCCCTCCGAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATTCCTGGAAAA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATTGGCCTTTTA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATTTAAAGTGGC,AML328-D29,HSC,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATTTAAATGGAC,AML328-D29,HSC,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATTTGCAGCCTC,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATTTGCGATTTT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_ATTTGGTTACGG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CAACATAATTTG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CAAGCAAATATT,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CACGGATCGTGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CAGCGGCGGCCG,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CATGGCCAAAGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CATTACACAAAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CATTGTGAAGAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CCACGTGGTGGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CCAGGTCCCGAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CCAGTCAACCTC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CCATAATGCCTC,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CCATGGAACAGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CCATGTAGACAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CCCCGCCGCGGG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CCTACCCTCTAT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CCTATTTGCTCG,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CCTCTCAGCGCC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGAACGTACTTG,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGACGCCACCGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGATCCCACGTG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGATTTTGACCC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGCCAGGGTATA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGCCGCTAGCGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGCCTAAATCGT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGCTGAAAGGTN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGCTTCGCTTGG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGGCAGCTTGGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGGCAGGATCCA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGGGCACGATAG,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGTACGGCGCCN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGTAGGAGTGTC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGTCAGCCTTCC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGTGTAATCTGA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGTTCCTCGTGN,AML328-D29,HSC,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTAAGCCTAGTT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTCGTTATCGAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTCTAAAACAAT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTCTCCCGTGAN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTCTGTCTATTC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTGAGCTATGCG,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTGCGCTACCCT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTGTACTCAGTG,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTGTTTTTCTTT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTTAAAACAGCA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTTAGTCATTAG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTTGGGCGTACT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTTGTGACGCTC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTTTCCCATCGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GAACTCATTCAG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GAAGCTCCGTGG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GACTACAATAAN,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GACTCCTATTAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GAGAATTATCGA,AML328-D29,HSC,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GAGCCTGATTGG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GAGTATGTCGGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GAGTCCGCCACC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GATAAATACCCC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GATAGAACATGG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GATAGTCAGAAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GATCCAAGCTCT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GATGAACGACGA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GATGTGCGGGCT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GATTGGTTGTGN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCAATCTCAGGN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCAGCTCTCGGA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCATACCCCGAA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCCACTGCGCAN,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCCAGAGTATCG,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCCCACGGTGGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCCTTAGGGGAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCGAGTACATGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCGGCCTTAATA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCGGCGCAACTA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCGGGCGATGCG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCTTACCCGGCN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCTTAGAGCACA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGACCGGGCATC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGACTCCGATGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGCAACGTCTTC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGCATTGCATGA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGCCAGAACACN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGCTACGGGACC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGCTCCTCCCTA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGCTGTGGACGA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGGCCATACCCT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGGCGCACGTGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGGGAGCGCAAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGGGCCGCATCC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGTAATCATGAN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGTAGGTACGCT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGTTATCAAAAG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGTTCTGGCTGA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTACAGGCCTGG,AML328-D29,HSC,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTAGCATATAAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTAGGCGGTCGC,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTCGTAAATGTC,AML328-D29,HSC,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTGAACGACGTG,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTGAATGGAGCG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTGACAATGTGN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTGATTCTCTTA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTGGAGCTCCCA,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTGTCTTATAGA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTTATTTATGAG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTTCCTGAACGG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTTTATTTGCTG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTTTCCACTTAG,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TAACACCATTAA,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TAACGTCCGTAG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TAAGACGCGTAC,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TAAGACTATTTG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TAAGGTTCTGCT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TAATACTAAATG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TACACCGTGGAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TACCGCGGTCCT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TACCTTCAGTTT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TACTCACCAGGT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TACTGGCCCGGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TAGAGGTGCTCC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TATGAATTGACG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TATGACTCTTGA,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TATGTACCGTAA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TATTAGAACTCA,AML328-D29,HSC,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TCAACGGTGGAT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TCATCCGGCATA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TCATTCGCAGAG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TCATTTTAACTT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TCCTACTACCGG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TCGTTACTGCAA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TCTTAATCATCA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TCTTTTAGTTTC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TGAGCCCTTGCT,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TGAGGACTGAAT,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TGAGGTAGTCCA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TGGTCTTAATCN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TGTGTTAGTCAN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTAAAGGGTTTC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTAGCTTGCCAC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTCGGACCCTCA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTCGGCAAAGAN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTCTATCAGCGT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTCTGGCACTAN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTGAAAATGCTN,AML328-D29,HSC,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTGGAGTCAGCG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTGGTTTCCACC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTGTAGCACAAA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTTCATCGGAGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AAATGGGATCCC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AACTGGCTAGGT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AGTGGAGGCCTA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CCCGGAAAGAAT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGAGTGCTTGAG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CGATGGTATGCC,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGCGTTTCGAGC,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTCGGGCTAGCT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GTGTTTGTAAGA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TAATCTTCTTCN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TACAGGCCACGG,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TATGTGTTTTTN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TGGGAATACACN,AML328-D29,HSC,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TGTGCGCAGGCN,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTACGAGGGGCT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CTTTGTCCCGGC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AGCTGATTTCAA,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TTTCGTGCATCC,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GCTGTTATCCTG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_GGTGATGTTACT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_AGCTTCCGCCAG,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_CCTGGATTCTTT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML328-D29_TAAGCGAACCGT,AML328-D29,HSC-like,AML328-D29,AML328,D29,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML328-D29,HSC,HSC_Consensus,Patient
+AML707B-D0_AAAATTCCTTAT,AML707B-D0,HSC,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_ACGAATGGCAAA,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_ATATATTTGCCC,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_ATGTAGAAACCA,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_ATTGTGACGTAG,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CAAATTGAACGC,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CAATATACCCCT,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CAGTGTCGTTCG,AML707B-D0,HSC,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CCGATAAATGCA,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CCGCCCGGACAG,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CGGGCACAATCC,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CTAAGTTTCCAG,AML707B-D0,HSC,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CTCCACACGGGC,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CTCTATTGGTGA,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CTGCGGAATCTC,AML707B-D0,HSC,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_GACAATTCCCGT,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_GAGCATACAACA,AML707B-D0,HSC,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_GAGGAATGCGGA,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_GATAGCGCCCAT,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_GGCCCTATTTAC,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_GTGTCACACCGT,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_GTTATTCGCACC,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_TATGGCAGCTCN,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_TCAGCCTTCCGC,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_TCGTCCATCTGN,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_TTACCGGCCTAC,AML707B-D0,HSC,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_TTATTCGGCACT,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CGGTCAGATTCA,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_GCCAAACCTGTT,AML707B-D0,HSC,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_TGGTCCCGCACT,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CAAAGCCCTTAG,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_GCGGGGATATCN,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_ATGCGTGGTTTT,AML707B-D0,HSC,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CAGATGCCATAN,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_CGAGCACTCAGC,AML707B-D0,HSC,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_ACCTTATTAAAT,AML707B-D0,HSC,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_ATCGTCTGTGAG,AML707B-D0,HSC-like,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D0_ATTTCTATTAGA,AML707B-D0,HSC,AML707B-D0,AML707B,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D0,HSC,HSC_Consensus,Patient
+AML707B-D113_CCAGTTAGGTCG,AML707B-D113,HSC,AML707B-D113,AML707B,D113,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML707B-D113,HSC,HSC_Consensus,Patient
+AML707B-D41_AATGGAACGAAG,AML707B-D41,HSC,AML707B-D41,AML707B,D41,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML707B-D41,HSC,HSC_Consensus,Patient
+AML707B-D41_CATCTACGGAAG,AML707B-D41,HSC,AML707B-D41,AML707B,D41,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML707B-D41,HSC,HSC_Consensus,Patient
+AML707B-D41_GGACAACCATAC,AML707B-D41,HSC,AML707B-D41,AML707B,D41,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D41,HSC,HSC_Consensus,Patient
+AML707B-D41_TATTGGGTTCTN,AML707B-D41,HSC,AML707B-D41,AML707B,D41,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML707B-D41,HSC,HSC_Consensus,Patient
+AML707B-D41_GTCCACGCCCTG,AML707B-D41,HSC,AML707B-D41,AML707B,D41,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML707B-D41,HSC,HSC_Consensus,Patient
+AML916-D0_ACTACCTACGCC,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_AGTAAGCGTGTT,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_ATTCACAAGATA,AML916-D0,HSC,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CAGTGATACATA,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CCCCGTTGTCGA,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CCCGTCTGTGCC,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CCGACGTAGGCA,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CGCCCAGTATGA,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CGTAATATCAGG,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CGTAATGCAGCC,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CTAAAGGGCACC,AML916-D0,HSC,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CTCTGGCACGAA,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CTGTTTGTTAGT,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CTTCCAGTGGAG,AML916-D0,HSC,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CTTGCGGATGTG,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CTTGGTTCAAGC,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_GAAAAGCTGAAC,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_GAACCATGGCGC,AML916-D0,HSC,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_GACCGGTTACTT,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_GCGCAGTGACGG,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_GCGCCTCATACA,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_GCGCTTCAGCGA,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_GGATCTAGGACC,AML916-D0,HSC,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_GTGGTAACTTCA,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_TAACCAGAGAGC,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_TAGTGGTTATCC,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_TCGGTTCGTTCC,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_TCTCACTAGATT,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_TGTCATGCACCA,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_TTAGGTAGCATC,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_TTATAGACTTAN,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_TTGTTCCTACAC,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_TTTTCGCTGCCN,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CCGGCAGCATGA,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CCTTGTACTACG,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_CAGAGTCGACAA,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_GGAGTTCGTGGT,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML916-D0_TAACACATTTCA,AML916-D0,HSC-like,AML916-D0,AML916,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML916-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_AAATTATGACCT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_AACAAAAATCAT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_AACCTTTAAATG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_AACGAGTATATG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_AATTCCTGGCGT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_ACATCCATGTTC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_ACCTAGGGCATG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_ACGCTGGCATTC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_ACTGGTGGGTAT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_AGACCAGGTATC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_AGACTCAACTGN,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_AGCGGGAGGTTT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_AGTAGGGTCAAC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_ATAGAGGACGGA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_ATGACTGATAGG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_ATGCTCCAACGT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_ATGGTCCGTAAA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CAAGGCCAATAC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CAAGTTGAACTT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CAATCTTGGAGA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CACGGGATTAGC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CAGAGAAAGCTG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CAGCCACATGAA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CAGCGACGTAAG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CATCTCTACCGN,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CCATGGTACCTC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CCATTCCCAAGG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CCCCAGAAATGT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CCCCGATTTCCA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CCCGGCTCCCCA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CCCGGGTCGATG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CCCGTTAGTAAA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CCGCCCCTTTGN,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CCTATTGATATC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CGAATCACCCTG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CGGATGTTGAGT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CGGTCGGAGGCT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CGTCAGACTAGG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CGTCCGCGGGCC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CTCGTAGTGCAT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CTTGATCCGCTG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_CTTTCACACCAT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GACAACGAGCCG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GACATAGCCACC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GACCTCGTTTAC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GATAACGCCCCA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GCACCTACCCAC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GCCATACTTAGA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GCCCACGAACTA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GCGAAGATAGAA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GCGAGAGGGTTC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GCTATCTGATCT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GGCAGGACACCC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GGCCTGGACACN,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GGGACCCCGACT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GGTCAGGGCGTT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GTAGATCGTGCG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GTCCTCTACTTC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GTGCGCTTATAN,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GTGCTTAGATCC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GTGGCCACTTAA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_GTTTCTTTAACA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TAAATTGCCATA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TAAGGAGGCGAN,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TACCGAGATTGN,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TCAATGTAGCTN,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TCAGCGCGACCT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TCTATATATTTC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TCTCGGAGTATC,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TTAAGTCAGAGN,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TTACATAGACTG,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,HSC,HSC,HSC MPP,Hematopoietic Stem Cell,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TTCTGGATTGTA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TTGCTAGACGGA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MkEry,MPP-MkEry,HSC MPP,Multipotent Progenitor - Megakaryocyte-Erythroid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TTGGGCCTTATA,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient
+AML921A-D0_TTTGACAACGAT,AML921A-D0,HSC-like,AML921A-D0,AML921A,D0,patient,MPP-MyLy,MPP-MyLy,HSC MPP,Multipotent Progenitor - Myelo-Lymphoid Primed,AML921A-D0,HSC,HSC_Consensus,Patient

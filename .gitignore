@@ -1,0 +1,237 @@
+# ============================================================================
+# AML Therapeutic Target Identification Pipeline - Git Ignore
+# ============================================================================
+# This .gitignore excludes large data files and intermediate results
+# All data files should be obtained separately (see README.md)
+
+# ============================================================================
+# LARGE DATA FILES (Total: ~17 GB excluded)
+# ============================================================================
+
+# Reference atlases (download separately - see README)
+Reference_raw.h5ad
+Reference_raw_hvg.h5ad
+vanGalen_raw.h5ad
+vanGalen_raw_HLSPC.h5ad
+
+# All AnnData single-cell objects
+*.h5ad
+
+# Pickle files (models, cached objects)
+*.pkl
+*.joblib
+
+# Large CSV files (results can be regenerated)
+**/van_galen_classifier_results.csv
+
+# ============================================================================
+# VIRTUAL ENVIRONMENTS (Total: ~11 GB excluded)
+# ============================================================================
+
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+Legacy/SAM/.venv/
+
+# ============================================================================
+# PYTHON
+# ============================================================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# ============================================================================
+# MODEL CHECKPOINTS AND LOGS
+# ============================================================================
+
+# PyTorch/TensorFlow model files
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Lightning logs
+lightning_logs/
+*/lightning_logs/
+
+# Checkpoints
+checkpoints/
+*/checkpoints/
+
+# UMAP models
+**/umap_model.pkl
+
+# scVI/scANVI model directories (keep structure, exclude large files)
+**/scanvi_reference/model.pt
+**/scanvi_reference/*.pkl
+
+# ============================================================================
+# INTERMEDIATE RESULTS (Can be regenerated from code)
+# ============================================================================
+
+# Step 1: RF Reimplementation
+1_RF_reimplementation/results/data_processed_normal.h5ad
+1_RF_reimplementation/results/training_data_21class.h5ad
+1_RF_reimplementation/results/classifier1_final_model.pkl
+
+# Step 2: Projections
+2_Projections/outputs/embeddings/*.h5ad
+2_Projections/outputs/models/ref_hvgSubset_raw.h5ad
+2_Projections/dataset/Queries/**/*.h5ad
+2_Projections/dataset/DotPlot/**/*.h5ad
+2_Projections/dataset/Examples/**/*.h5ad
+
+# Step 3: Ensemble
+3_Ensemble/internal_validation_train.h5ad
+3_Ensemble/internal_validation_test.h5ad
+3_Ensemble/external_validation_*.h5ad
+3_Ensemble/evaluation/**/*.h5ad
+3_Ensemble/pooledLSC/**/*.h5ad
+3_Ensemble/individual_predictor/**/*.pkl
+
+# Step 4: TargetID
+4_TargetID/HSC_MPP*.h5ad
+4_TargetID/DEG_results_*/**/*.csv
+4_TargetID/gsea_results/**/*
+
+# ============================================================================
+# IDE AND EDITOR FILES
+# ============================================================================
+
+# PyCharm
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*.swn
+*~
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# ============================================================================
+# OPERATING SYSTEM FILES
+# ============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+
+# ============================================================================
+# R FILES (for any R-based analysis)
+# ============================================================================
+
+.Rhistory
+.RData
+.Rproj.user
+*.Rproj
+
+# ============================================================================
+# JUPYTER NOTEBOOKS
+# ============================================================================
+
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Notebook output (uncomment if you want to exclude all outputs)
+# *.ipynb
+
+# ============================================================================
+# DOCUMENTATION BUILD FILES
+# ============================================================================
+
+# Sphinx documentation
+docs/_build/
+docs/_static/
+docs/_templates/
+
+# MkDocs documentation
+site/
+
+# ============================================================================
+# TEMPORARY FILES
+# ============================================================================
+
+*.tmp
+*.temp
+*.log
+*.out
+*.bak
+*.cache
+
+# ============================================================================
+# EXCEPTIONS (Files to INCLUDE despite patterns above)
+# ============================================================================
+
+# Keep small example files for testing (if you create them)
+# !examples/small_dataset.h5ad
+
+# Keep requirements files
+!requirements.txt
+!*/requirements.txt
+
+# Keep README files
+!README.md
+!*/README.md
+
+# Keep key validation figures (small PNGs/PDFs)
+!**/confusion_matrix*.png
+!**/volcano*.png
+!**/umap*.png
+!**/ensemble_performance*.png
