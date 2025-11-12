@@ -235,3 +235,14 @@ site/
 !**/volcano*.png
 !**/umap*.png
 !**/ensemble_performance*.png
+
+# ============================================================================
+# CUSTOM EXCLUSIONS (Add your specific folders below)
+# ============================================================================
+
+# Example: Exclude specific folders
+# my_private_notes/
+# scratch_analysis/
+# old_versions/
+
+cnv_analysis/
