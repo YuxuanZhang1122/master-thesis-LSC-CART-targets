@@ -248,3 +248,5 @@ site/
 cnv_analysis/
 .claude/
 .claude/settings.local.json
+Legacy/
+readme.txt
