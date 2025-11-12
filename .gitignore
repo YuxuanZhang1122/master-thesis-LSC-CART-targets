@@ -247,3 +247,4 @@ site/
 
 cnv_analysis/
 .claude/
+.claude/settings.local.json
