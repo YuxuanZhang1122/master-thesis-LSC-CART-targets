@@ -1,8 +1,8 @@
 # AML Therapeutic Target Identification Pipeline
 
-> **⚠️ Work in Progress**: This repository contains research code for an ongoing thesis project. Some analyses are still under development.
+> **In Progress**: ongoing thesis project.
 
-Systematic pipeline for identifying therapeutic targets in acute myeloid leukemia (AML) using single-cell RNA-seq data.
+Systematic pipeline for identifying combinatorial CAR-T targets in acute myeloid leukemia (AML) using single-cell RNA-seq data.
 
 ## Overview
 
@@ -158,11 +158,11 @@ python run_gsea.py                   # Pathway enrichment
 
 ### Required Files
 
-| File | Size | Description | How to Obtain |
-|------|------|-------------|---------------|
-| `Reference_raw_hvg.h5ad` | ~773 MB | Reference atlas (HVG-filtered, raw counts)<br>Required columns: `Donor`, `CellType`, `CellType_Broad` | Contact repository owner or use public HSPC atlas |
-| `vanGalen_raw.h5ad` | ~120 MB | van Galen AML dataset (raw counts)<br>Required columns: `CellType`, `GroundTruth` | [van Galen et al. 2019](https://doi.org/10.1016/j.cell.2019.01.031)<br>GEO: GSE116256 |
-| Query datasets | Various | Multiple AML cohorts for projection<br>Place in `2_Projections/dataset/Queries/` | See publications in citations |
+| File | Description | How to Obtain                                                                                                                 |
+|------|-------------|-------------------------------------------------------------------------------------------------------------------------------|
+| `Reference_raw_hvg.h5ad` | Reference atlas (HVG-filtered, raw counts)<br>Required columns: `Donor`, `CellType`, `CellType_Broad` | [Zeng et al. 2025](https://doi.org/10.1158/2643-3230.BCD-24-0342)<br> [figshare](https://figshare.com/s/7a3c3a48fe78c7d74139) |
+| `vanGalen_raw.h5ad` | van Galen AML dataset (raw counts)<br>Required columns: `CellType`, `GroundTruth` | [van Galen et al. 2019](https://doi.org/10.1016/j.cell.2019.01.031)<br>GEO: GSE116256                                         |
+| Query datasets | Multiple AML cohorts for projection<br>Place in `2_Projections/dataset/Queries/` | See publications in citations                                                                                                 |
 
 ### Expected Directory Structure
 
