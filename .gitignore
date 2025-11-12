@@ -246,3 +246,4 @@ site/
 # old_versions/
 
 cnv_analysis/
+.claude/
