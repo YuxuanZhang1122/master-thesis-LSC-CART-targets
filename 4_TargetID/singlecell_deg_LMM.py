@@ -109,7 +109,7 @@ cell_cycle_genes = [
 ]
 # Housekeeping genes
 housekeeping_genes = [
-    'ACTB', 'GAPDH', 'HPRT1', 'B2M', 'TBP', 'UBC', 'PPIA', 'PGK1'
+    'ACTB', 'GAPDH', 'HPRT1', 'B2M', 'TBP', 'UBC', 'PPIA', 'PGK1'#, 'VIM', 'EEFIAI'
 ]
 
 for gene in cell_cycle_genes:

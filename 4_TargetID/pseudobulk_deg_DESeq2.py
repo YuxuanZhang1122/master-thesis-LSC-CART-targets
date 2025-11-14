@@ -18,13 +18,13 @@ warnings.filterwarnings('ignore', category=FutureWarning)
 warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 # Configuration
-INPUT_FILE = 'HSC_MPP.h5ad'
+INPUT_FILE = 'HSC_MPPe.h5ad'
 MIN_CELLS_PER_DONOR = 50
 MIN_CELLS_PER_STATUS = 10  # Minimum cells per status per donor (paired)
 PVAL_THRESH = 0.05
 FC_THRESH = 1
 N_TOP_GENES_LABEL = 20
-OUTPUT_DIR = 'DEG_results_pseudobulk_DESeq2'
+OUTPUT_DIR = 'DEG_results_pseudobulk_DESeq2_try'
 LMM_tocompare = 'DEG_results_singlecell_LMM'
 
 # ============================================================================
@@ -36,6 +36,55 @@ adata = sc.read_h5ad(INPUT_FILE)
 # Filter genes expressed in at least 1% of cells
 min_cells = int(0.01 * adata.n_obs)
 sc.pp.filter_genes(adata, min_cells=min_cells)
+
+genes_to_exclude = []
+
+# Ribosomal protein genes
+ribosomal_patterns = ['RPL', 'RPS', 'MRPL', 'MRPS']
+for gene in adata.var_names:
+    if any(gene.startswith(pattern) for pattern in ribosomal_patterns):
+        genes_to_exclude.append(gene)
+
+# Mitochondrial genes
+if any(gene.startswith('MT-') for gene in adata.var_names):
+    mt_genes = [g for g in adata.var_names if g.startswith('MT-')]
+    genes_to_exclude.extend(mt_genes)
+
+# Heat shock proteins
+hsp_genes = [g for g in adata.var_names if g.startswith('HSP')]
+genes_to_exclude.extend(hsp_genes)
+
+# Cell cycle genes
+cell_cycle_genes = [
+    'MKI67', 'TOP2A', 'CCNA2', 'CCNB1', 'CCNB2', 'CCND1', 'CCND2', 'CCND3',
+    'CCNE1', 'CCNE2', 'CDC20', 'CDC6', 'CDKN1A', 'CDKN1B', 'CDKN2A', 'CDKN3',
+    'CDK1', 'CDK2', 'CDK4', 'CDK6', 'PCNA', 'AURKA', 'AURKB', 'BUB1', 'BUB1B',
+    'MAD2L1', 'PLK1', 'PTTG1', 'ZWINT', 'CENPE', 'CENPF', 'UBE2C', 'BIRC5',
+    'HMGB2', 'TUBB', 'TUBA1B', 'SMC2', 'SMC4', 'H2AFZ', 'HIST1H1B', 'HIST1H4C'
+]
+# Housekeeping genes
+housekeeping_genes = [
+    'ACTB', 'GAPDH', 'HPRT1', 'B2M', 'TBP', 'UBC', 'PPIA', 'PGK1'#, 'VIM', 'EEFIAI'
+]
+
+for gene in cell_cycle_genes:
+    if gene in adata.var_names:
+        genes_to_exclude.append(gene)
+for gene in housekeeping_genes:
+    if gene in adata.var_names:
+        genes_to_exclude.append(gene)
+
+# Immunoglobulin genes
+ig_genes = [g for g in adata.var_names if g.startswith('IG')]
+genes_to_exclude.extend(ig_genes)
+
+genes_to_exclude = list(set(genes_to_exclude))
+
+# Create final gene filter
+exclude_mask = np.array([g not in genes_to_exclude for g in adata.var_names])
+
+adata = adata[:,exclude_mask].copy()
+
 
 # Filter donors with >= MIN_CELLS_PER_DONOR total cells
 donor_counts = adata.obs['Donor'].value_counts()
@@ -104,7 +153,7 @@ donor_counts_filtered = donor_counts_df.loc[:, gene_filter]
 dds_donor = DeseqDataSet(
     counts=donor_counts_filtered,
     metadata=donor_meta_df,
-    design_factors=['Donor', 'consensus_label_6votes'],
+    design_factors=['Study', 'consensus_label_6votes'],
     refit_cooks=True
 )
 dds_donor.deseq2()
