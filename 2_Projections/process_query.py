@@ -209,9 +209,13 @@ def process_query(query_path, adata_ref_embed):
 
 if __name__ == "__main__":
 
-    query_path = ''
+    query_path_1 = 'dataset/Queries/lasry_adata.h5ad'
+    #query_path_2 = 'dataset/Queries/Guo.h5ad'
+    #query_path_3 = 'dataset/Queries/Abbas.h5ad'
 
     embed_path = EMBEDDINGS_DIR / REFERENCE_EMBEDDING_NAME
     adata_ref_embed = ad.read_h5ad(embed_path)
 
-    process_query(query_path, adata_ref_embed)
+    process_query(query_path_1, adata_ref_embed)
+    #process_query(query_path_2, adata_ref_embed)
+    #process_query(query_path_3, adata_ref_embed)

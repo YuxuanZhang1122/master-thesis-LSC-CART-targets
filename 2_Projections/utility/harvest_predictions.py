@@ -18,7 +18,9 @@ DATASETS = [
     'Naldini_V03_REL',
     'Naldini_V02_DG',
     'Naldini_V02_MRD',
-    'vanGalen'
+    'vanGalen',
+    'Guo',
+    'Abbas'
 ]
 
 TARGET_CELLTYPES = {
@@ -27,7 +29,7 @@ TARGET_CELLTYPES = {
     'Early_GMP': 'Early GMP'
 }
 
-UNCERTAINTY_THRESHOLD = 0.3
+UNCERTAINTY_THRESHOLD = 1
 QUERY_DIR = Path('../dataset/Queries')
 EMBED_DIR = Path('../outputs/embeddings')
 OUTPUT_DIR = Path('../outputs/PooledLSC')
@@ -76,12 +78,28 @@ def harvest_cells(dataset_name, celltype_label, uncertainty_threshold=0.2):
 
     query_subset = query[selected_cells].copy()
 
-    # Extract study name from dataset name
+    # Extract study name and timepoint from dataset name
     study_name = dataset_name.split('_')[0]
 
-    # Preserve or add study column
-    if 'Study' not in query.obs.columns:
-        query_subset.obs['Study'] = study_name
+    # Add Study column
+    query_subset.obs['Study'] = study_name
+
+    # Add time_point column
+    if dataset_name == 'vanGalen':
+        # For vanGalen, use existing time_point column
+        if 'time_point' in query.obs.columns:
+            timepoint_vals = query_subset.obs['time_point'].copy()
+            # Map D0 -> DG, exclude HC, everything else -> non-DG
+            query_subset.obs['time_point'] = timepoint_vals.apply(
+                lambda x: 'DG' if x == 'D0' else ('non-DG' if x != 'HC' else x)
+            )
+            # Filter out HC samples
+            query_subset = query_subset[query_subset.obs['time_point'] != 'HC'].copy()
+    else:
+        # Extract timepoint from dataset suffix
+        parts = dataset_name.split('_')
+        timepoint = parts[-1] if len(parts) > 1 else 'DG'
+        query_subset.obs['time_point'] = timepoint
 
     # Handle donor/patient ID - prefer Donor, fallback to patient_id
     donor_col = None
@@ -103,7 +121,7 @@ def harvest_cells(dataset_name, celltype_label, uncertainty_threshold=0.2):
 
 def pool_celltypes(datasets, celltype_label, output_name):
     """
-    Save cells of specific type from each dataset individually.
+    Save cells of specific type from each dataset individually and as pooled dataset.
 
     Args:
         datasets: List of dataset names
@@ -121,6 +139,7 @@ def pool_celltypes(datasets, celltype_label, output_name):
 
     total_cells = 0
     saved_count = 0
+    collected_datasets = []
 
     for ds in datasets:
         adata = harvest_cells(ds, celltype_label, UNCERTAINTY_THRESHOLD)
@@ -131,11 +150,29 @@ def pool_celltypes(datasets, celltype_label, output_name):
 
             total_cells += adata.shape[0]
             saved_count += 1
+            collected_datasets.append(adata)
             logger.info(f"  Saved {ds}: {adata.shape[0]} cells × {adata.shape[1]} genes")
 
     if saved_count == 0:
         logger.warning(f"No cells found for {celltype_label}")
         return 0
+
+    # Concatenate and save pooled dataset
+    if collected_datasets:
+        pooled = ad.concat(collected_datasets, join='inner', merge='same')
+
+        # Filter donors with > 100 cells
+        if 'Donor' in pooled.obs.columns:
+            donor_counts = pooled.obs['Donor'].value_counts()
+            valid_donors = donor_counts[donor_counts > 100].index
+            n_before = pooled.shape[0]
+            pooled = pooled[pooled.obs['Donor'].isin(valid_donors)].copy()
+            n_after = pooled.shape[0]
+            logger.info(f"  Filtered donors: {len(valid_donors)}/{len(donor_counts)} donors kept, {n_after}/{n_before} cells")
+
+        pooled_path = celltype_dir / f'pooled_{output_name}.h5ad'
+        pooled.write_h5ad(pooled_path, compression='gzip')
+        logger.info(f"  Saved pooled dataset: {pooled.shape[0]} cells × {pooled.shape[1]} genes")
 
     logger.info(f"Total: {saved_count} datasets, {total_cells} cells in {celltype_dir}")
 

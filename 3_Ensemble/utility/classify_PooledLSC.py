@@ -3,21 +3,25 @@ import pandas as pd
 import numpy as np
 from pathlib import Path
 import logging
+import sys
 
-from ..ensemble import CellTypeEnsemble
-from ..scANVI_predictor import ScANVIPredictor
-from ..randomforest_predictor import RandomForestPredictor
-from ..xgboost_predictor import XGBoostPredictor
-from ..svm_predictor import SVMPredictor
-from ..celltypist_predictor import CellTypistPredictor
-from ..mlp_predictor import MLPPredictor
-from ..lightgbm_predictor import LightGBMPredictor
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
+from ensemble import CellTypeEnsemble
+from scANVI_predictor import ScANVIPredictor
+from randomforest_predictor import RandomForestPredictor
+from xgboost_predictor import XGBoostPredictor
+from svm_predictor import SVMPredictor
+from celltypist_predictor import CellTypistPredictor
+from mlp_predictor import MLPPredictor
+from lightgbm_predictor import LightGBMPredictor
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-POOLED_DIR = Path('')
-OUTPUT_DIR = Path('')
+POOLED_DIR = Path('../pooledLSC/ready_100')
+OUTPUT_DIR = Path('../pooledLSC')
 OUTPUT_DIR.mkdir(exist_ok=True, parents=True)
 
 REF_PATH = '../../vanGalen_raw_HLSPC.h5ad'
@@ -158,7 +162,7 @@ def main():
     logger.info(f"Query directory: {POOLED_DIR}/")
 
     # Get all pooled dataset files
-    dataset_files = sorted(POOLED_DIR.glob('*_DG.h5ad'))
+    dataset_files = sorted(POOLED_DIR.glob('*.h5ad'))
 
     if not dataset_files:
         logger.error(f"No dataset files found in {POOLED_DIR}/")

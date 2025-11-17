@@ -18,13 +18,19 @@ warnings.filterwarnings('ignore', category=FutureWarning)
 warnings.filterwarnings('ignore', category=DeprecationWarning)
 
 # Configuration
-INPUT_FILE = 'HSC_MPPe.h5ad'
+INPUT_FILE = 'HSC_MPP_full_5_surface.h5ad'
 MIN_CELLS_PER_DONOR = 50
 MIN_CELLS_PER_STATUS = 10  # Minimum cells per status per donor (paired)
+
+# Gene filtering criteria (same as LMM)
+MIN_EXPR_PCT = 0.05         # Minimum percentage of LSPC cells expressing
+MIN_MEAN_EXPR = 0.1        # Minimum mean expression level of LSPC cells
+LSPC_higherthan_HSPC = False # Compare mean cpm
+
 PVAL_THRESH = 0.05
 FC_THRESH = 1
 N_TOP_GENES_LABEL = 20
-OUTPUT_DIR = 'DEG_results_pseudobulk_DESeq2_try'
+OUTPUT_DIR = 'DEG_results_pseudobulk_DESeq2_surfaceproteinonly'
 LMM_tocompare = 'DEG_results_singlecell_LMM'
 
 # ============================================================================
@@ -33,9 +39,46 @@ LMM_tocompare = 'DEG_results_singlecell_LMM'
 
 adata = sc.read_h5ad(INPUT_FILE)
 
-# Filter genes expressed in at least 1% of cells
-min_cells = int(0.01 * adata.n_obs)
-sc.pp.filter_genes(adata, min_cells=min_cells)
+# ============================================================================
+# Gene expression filtering (same as LMM)
+# ============================================================================
+
+# Get raw counts for CPM calculation
+if sparse.issparse(adata.X):
+    raw_counts = adata.X.toarray()
+else:
+    raw_counts = adata.X.copy()
+
+library_sizes = raw_counts.sum(axis=1, keepdims=True)
+cpm = (raw_counts / library_sizes) * 1e4
+
+# Identify LSPC and HSPC cells
+malignant_mask = adata.obs['consensus_label_6votes'] == 'LSPC'
+healthy_mask = adata.obs['consensus_label_6votes'] == 'HSPC'
+n_malignant_cells = malignant_mask.sum()
+
+# Calculate expression metrics in LSPC cells
+expr_malignant = cpm[malignant_mask, :]
+n_cells_expr_malignant = (expr_malignant > 0).sum(axis=0)
+expr_pct_malignant = n_cells_expr_malignant / n_malignant_cells
+mean_expr_malignant = expr_malignant.mean(axis=0)
+
+# Calculate expression metrics in HSPC cells
+expr_healthy = cpm[healthy_mask, :]
+mean_expr_healthy = expr_healthy.mean(axis=0)
+
+# Filter: genes must meet ALL criteria
+if LSPC_higherthan_HSPC:
+    gene_filter = (expr_pct_malignant >= MIN_EXPR_PCT) & \
+                  (mean_expr_malignant >= MIN_MEAN_EXPR) & \
+                  (mean_expr_malignant > mean_expr_healthy)
+else:
+    gene_filter = (expr_pct_malignant >= MIN_EXPR_PCT) & \
+                  (mean_expr_malignant >= MIN_MEAN_EXPR)
+
+# ============================================================================
+# Remove ribosomal, mitochondrial, cell cycle, housekeeping genes
+# ============================================================================
 
 genes_to_exclude = []
 
@@ -80,10 +123,11 @@ genes_to_exclude.extend(ig_genes)
 
 genes_to_exclude = list(set(genes_to_exclude))
 
-# Create final gene filter
+# Create final gene filter combining expression filter and exclusion list
 exclude_mask = np.array([g not in genes_to_exclude for g in adata.var_names])
+final_gene_filter = gene_filter & exclude_mask
 
-adata = adata[:,exclude_mask].copy()
+adata = adata[:,final_gene_filter].copy()
 
 
 # Filter donors with >= MIN_CELLS_PER_DONOR total cells
