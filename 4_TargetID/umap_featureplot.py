@@ -8,8 +8,8 @@ from scipy.stats import gaussian_kde
 warnings.filterwarnings('ignore')
 
 # Configuration
-INPUT_FILE = 'HSC_MPP.h5ad'
-OUTPUT_DIR = 'umap'
+INPUT_FILE = 'HSC_MPP_full.h5ad'
+OUTPUT_DIR = 'Outputs/Umap'
 SCVI_OUTPUT = 'HSC_MPP_scVI.h5ad'
 SCANVI_OUTPUT = 'HSC_MPP_scANVI.h5ad'
 
@@ -38,8 +38,8 @@ vae.train(max_epochs=50, plan_kwargs={'lr': 0.005}, accelerator='mps')
 
 adata.obsm['X_scVI'] = vae.get_latent_representation()
 
-sc.pp.neighbors(adata, use_rep='X_scVI', n_neighbors=15)
-sc.tl.umap(adata, min_dist=1)
+sc.pp.neighbors(adata, use_rep='X_scVI', n_neighbors=30)
+sc.tl.umap(adata, min_dist=0.3)
 
 # In case there's a need
 adata.write(SCVI_OUTPUT)
@@ -56,8 +56,8 @@ lvae.train(max_epochs=50, accelerator='mps')
 
 adata.obsm['X_scANVI'] = lvae.get_latent_representation()
 
-sc.pp.neighbors(adata, use_rep='X_scANVI', n_neighbors=15)
-sc.tl.umap(adata, min_dist=1)
+sc.pp.neighbors(adata, use_rep='X_scANVI', n_neighbors=30)
+sc.tl.umap(adata, min_dist=0.3)
 
 adata.write(SCANVI_OUTPUT)
 plt.figure(figsize=(10, 10))
@@ -96,7 +96,8 @@ genes = {
     'CD44': 'CD44',
     'FLT3': 'FLT3',
     'CD70': 'CD70',
-
+    'CD47': 'CD47',
+    'CD9': 'CD9'
 }
 
 gene_list = list(genes.values())
@@ -107,6 +108,21 @@ for label, gene in genes.items():
                frameon=False, title=f'{label} ({gene})',
                cmap='Oranges', vmin=0, vmax='p99', add_outline=True, outline_width=(0.015, 0.002), outline_color=('grey', 'white'),
                size=30, alpha=0.4, colorbar_loc=None)
+
+    # Calculate percentage of expressing cells (raw count > 0)
+    raw_counts = adata[:, gene].X.toarray().flatten() if hasattr(adata[:, gene].X, 'toarray') else adata[:, gene].X.flatten()
+
+    lspc_mask = adata.obs['consensus_label_6votes'] == 'LSPC'
+    hspc_mask = adata.obs['consensus_label_6votes'] == 'HSPC'
+
+    lspc_expr_pct = (raw_counts[lspc_mask] > 0).sum() / lspc_mask.sum() * 100
+    hspc_expr_pct = (raw_counts[hspc_mask] > 0).sum() / hspc_mask.sum() * 100
+
+    # Add percentage annotations
+    ax.text(0.03, 0.90, f'LSPC: {lspc_expr_pct:.1f}%', transform=ax.transAxes,
+            fontsize=10, va='top', ha='left', bbox=dict(boxstyle='round', facecolor='white', alpha=0.7))
+    ax.text(0.03, 0.15, f'HSPC: {hspc_expr_pct:.1f}%', transform=ax.transAxes,
+            fontsize=10, va='bottom', ha='left', bbox=dict(boxstyle='round', facecolor='white', alpha=0.7))
 
     # Add custom small colorbar at bottom right
     from mpl_toolkits.axes_grid1.inset_locator import inset_axes

@@ -5,8 +5,8 @@ This script performs Gene Set Enrichment Analysis (GSEA) on differential express
 to identify enriched biological pathways in malignant vs healthy hematopoietic stem cells.
 
 WORKFLOW:
-1. Loads DEG results from linear mixed model (LMM) analysis
-2. Ranks genes by t-statistic (coefficient/stderr from LMM)
+1. Loads DEG results from DESeq2 pseudobulk analysis
+2. Ranks genes by Wald statistic (from DESeq2 output)
 3. Runs preranked GSEA with multiple gene set databases:
    - MSigDB Hallmark 2020
    - GO Biological Process 2023
@@ -15,8 +15,8 @@ WORKFLOW:
 
 OUTPUT FILES (saved to OUTPUT_DIR):
 Core Results:
-- ranked_genes.txt: Gene list ranked by t-statistic (for GSEA input)
-- deg_with_ranks.csv: DEG results with added t-statistic column
+- ranked_genes.txt: Gene list ranked by Wald statistic (for GSEA input)
+- deg_with_ranks.csv: DEG results with ranking column
 - gsea_hallmark_results.csv: GSEA results for Hallmark gene sets
 - gsea_gobp_results.csv: GSEA results for GO Biological Process
 - gsea_kegg_results.csv: GSEA results for KEGG pathways
@@ -31,7 +31,7 @@ Tables (if EXPORT_GENE_TABLES=True):
 - pathway_gene_lists.xlsx: Excel file with leading edge genes per pathway (multiple sheets)
 
 The script will automatically:
-1. Load your DEG results and rank genes by t-statistic
+1. Load DESeq2 DEG results and rank genes by Wald statistic
 2. Run GSEA on three databases (Hallmark, GO BP, KEGG)
 3. Create summary bar plots for each database
 4. Create themed LSC-specific lollipop plot (if enabled)
@@ -48,12 +48,12 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Configuration
-INPUT_FILE = 'DEG_results_singlecell_LMM/singlecell_deg_all_results.csv'
-OUTPUT_DIR = 'gsea_results'
+INPUT_FILE = 'Outputs/DEG_results_pseudobulk_DESeq2/deseq2_results.csv'
+OUTPUT_DIR = 'Outputs/gsea_results'
 GENE_COL = 'gene'
-COEF_COL = 'coefficient'
-STDERR_COL = 'stderr'
+STAT_COL = 'stat'  # DESeq2 Wald statistic column
 LOG2FC_COL = 'log2FoldChange'
+LFCSE_COL = 'lfcSE'  # log2FoldChange standard error
 EXPORT_GENE_TABLES = True  # Set to True to export pathway gene lists to Excel/CSV
 CREATE_LOLLIPOP_PLOT = True  # Set to True to create lollipop plot with refined LSC-specific themes
 LSC_PLOT_FILE = 'lsc_themed_lollipop.png'
@@ -61,31 +61,39 @@ LSC_FDR_THRESHOLD = 0.25
 LSC_TOP_N_PER_THEME = 5
 
 
-def load_and_rank_genes(input_file, gene_col='gene', coef_col='coefficient',
-                         stderr_col='stderr', log2fc_col='log2FC'):
+def load_and_rank_genes(input_file, gene_col='gene', stat_col='stat',
+                         log2fc_col='log2FoldChange', lfcse_col='lfcSE'):
     """
     Load DEG results and create ranked gene list.
 
+    For DESeq2 results, uses the pre-computed Wald statistic.
+    Falls back to computing log2FC/lfcSE if stat column is missing.
+
     Returns:
-        pandas.Series: Ranked genes (index=gene, value=rank)
-        pandas.DataFrame: Full DEG table with ranks
+        pandas.Series: Ranked genes (index=gene, value=ranking statistic)
+        pandas.DataFrame: Full DEG table with ranking column
     """
     deg_df = pd.read_csv(input_file)
 
-    # Check if coefficient column exists, otherwise use log2FC
-    effect_col = coef_col if coef_col in deg_df.columns else log2fc_col
-
-    # Calculate t-statistic: coefficient / stderr
-    deg_df['t_statistic'] = deg_df[effect_col] / deg_df[stderr_col]
+    # Use pre-computed stat column if available, otherwise calculate from log2FC/lfcSE
+    if stat_col in deg_df.columns:
+        rank_col = stat_col
+        print(f"Using pre-computed '{stat_col}' column for ranking")
+    elif log2fc_col in deg_df.columns and lfcse_col in deg_df.columns:
+        deg_df['stat'] = deg_df[log2fc_col] / deg_df[lfcse_col]
+        rank_col = 'stat'
+        print(f"Calculated statistic from {log2fc_col}/{lfcse_col}")
+    else:
+        raise ValueError(f"Cannot find '{stat_col}' or '{log2fc_col}' and '{lfcse_col}' columns")
 
     # Remove NaN/Inf values
-    deg_df = deg_df.replace([np.inf, -np.inf], np.nan).dropna(subset=['t_statistic'])
+    deg_df = deg_df.replace([np.inf, -np.inf], np.nan).dropna(subset=[rank_col])
 
-    # Sort by t-statistic
-    deg_df_sorted = deg_df.sort_values('t_statistic', ascending=False)
+    # Sort by ranking statistic
+    deg_df_sorted = deg_df.sort_values(rank_col, ascending=False)
 
     # Create ranked series
-    rnk = deg_df_sorted.set_index(gene_col)['t_statistic']
+    rnk = deg_df_sorted.set_index(gene_col)[rank_col]
 
     return rnk, deg_df_sorted
 
@@ -335,14 +343,14 @@ def create_pathway_gene_tables(results_dir, output_file='pathway_gene_lists'):
 
 if __name__ == '__main__':
     # ========================================================================
-    # STEP 1: Load DEG results and rank genes by t-statistic
+    # STEP 1: Load DEG results and rank genes by Wald statistic
     # ========================================================================
     rnk, deg_df = load_and_rank_genes(
         INPUT_FILE,
         gene_col=GENE_COL,
-        coef_col=COEF_COL,
-        stderr_col=STDERR_COL,
-        log2fc_col=LOG2FC_COL
+        stat_col=STAT_COL,
+        log2fc_col=LOG2FC_COL,
+        lfcse_col=LFCSE_COL
     )
 
     # ========================================================================

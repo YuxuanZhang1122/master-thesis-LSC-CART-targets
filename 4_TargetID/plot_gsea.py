@@ -19,7 +19,7 @@ import warnings
 warnings.filterwarnings('ignore')
 
 # Configuration
-RESULTS_DIR = 'gsea_results'
+RESULTS_DIR = 'Outputs/gsea_results'
 OUTPUT_FILE = 'lsc_themed_lollipop.png'
 FDR_THRESHOLD = 0.25
 TOP_N_PER_THEME = 5
