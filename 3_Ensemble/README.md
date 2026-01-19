@@ -98,7 +98,7 @@ run_ensemble(
 ### Output
 
 Results are saved as `ensemble_results.h5ad` with predictions at three levels:
-- `consensus`: Majority vote (>=4/7 models agree)
+- `consensus`: Majority vote
 - `consensus_5votes`: High confidence (>=5/7 models agree)
 - `consensus_6votes`: Very high confidence (>=6/7 models agree)
 
