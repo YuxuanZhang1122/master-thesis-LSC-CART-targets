@@ -24,6 +24,8 @@ vanGalen_raw_HLSPC.h5ad
 # Large CSV files (results can be regenerated)
 **/van_galen_classifier_results.csv
 
+4_TargetID/Outputs/
+
 # ============================================================================
 # VIRTUAL ENVIRONMENTS (Total: ~11 GB excluded)
 # ============================================================================
