@@ -252,3 +252,5 @@ cnv_analysis/
 .claude/settings.local.json
 Legacy/
 readme.txt
+4_TargetID/plot_*.py
+4_TargetID/utility_*.py
