@@ -32,7 +32,7 @@ Training and hyperparameter tuning scripts are located in `individual_predictor/
 
 Individual predictions are aggregated via consensus voting with configurable thresholds.
 
-<img src="Figures/Ensemble.png" width="750">
+<img src="Figures/Ensemble.png" width="1000">
 
 *Figure. Consensus ensemble workflow. Seven independently trained classifiers vote on each cell. Predictions are generated at three consensus thresholds: simple majority (>=4 votes), Consensus_5 (>=5 votes), and Consensus_6 (>=6 votes). Higher thresholds improve precision at the cost of cell coverage.*
 
@@ -60,7 +60,7 @@ Individual predictions are aggregated via consensus voting with configurable thr
 
 ### Step 4: Cross-Validation
 
-<img src="Figures/LOPO_CV.png" width="900">
+<img src="Figures/LOPO_CV.png" width="1000">
 
 *Figure. Leave-one-patient-out cross-validation (LOPO-CV) accuracy for the consensus ensemble models across 12 test patients and one healthy donor.*
 
